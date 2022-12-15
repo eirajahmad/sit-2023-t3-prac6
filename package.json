@@ -1,14 +1,15 @@
 {
-  "name": "prac-five",
+  "name": "prac-six",
   "version": "1.0.0",
   "description": "SIT725 Project ",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js", 
+    "test" : "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abatool-abatool/Practical-Five-OC.git"
+    "url": "git+https://github.com/abatool-abatool/Practical-Six-OC.git"
   },
   "keywords": [
     "Express",
@@ -17,13 +18,16 @@
   "author": "Amna",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abatool-abatool/Practical-Five-OC/issues"
+    "url": "https://github.com/abatool-abatool/Practical-Six-OC/issues"
   },
-  "homepage": "https://github.com/abatool-abatool/Practical-Five-OC#readme",
+  "homepage": "https://github.com/abatool-abatool/Practical-Six-OC#readme",
   "dependencies": {
+    "chai": "^4.3.7",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongodb": "^4.12.1"
+    "mocha": "^10.2.0",
+    "mongodb": "^4.12.1",
+    "request": "^2.88.2"
   }
 }
